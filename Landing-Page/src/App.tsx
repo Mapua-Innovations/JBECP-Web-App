@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import LoadScreen from './components/LoadScreen';
 import "./App.css";
-
+import MessageOne from './components/MessageOne';
+import MesHeadingOne from './components/MesHeadOne';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -18,7 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      <span className="heading">Dare to make a challenge?</span>
+      <span className="heading"><MesHeadingOne/></span>
+      <span className="textboxone"><MessageOne /></span>
     </div>
   );
 }
