@@ -1,0 +1,39 @@
+.who-we-are-container {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr; 
+    gap: 20px;
+    background-color: #242424;
+    padding-top: 100px; 
+}
+
+.left-box1, .right-box2 {
+    padding: 100px 50px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.TextLeft {
+    color:white;
+    font-family: "Londrina Outline";
+    align-items: center;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.TextRight {
+    color:white;
+    font-family: "Sora";
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.who-we-are-container::before {
+    content: "";
+    grid-column: 2; /* Positions the line in the middle column */
+    grid-row: 1 / -1; /* Spans the line across all rows */
+    background-color: #ccc; /* Sets the color of the line */
+    width: 5px; /* Sets the width of the line */
+    height: 80%; 
+}

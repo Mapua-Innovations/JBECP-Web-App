@@ -1,0 +1,73 @@
+.partner-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .partner-content {
+    max-width: 1480px;
+    margin: auto;
+    max-width: 600px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .partner-content {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+.part-head {
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: white;
+  }
+  
+  .part-p {
+    text-align: center;
+    font-size: 1.25rem; 
+    color: grey;
+  }
+
+
+.logo-contain {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+  
+.partner-logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 40px;
+}
+  
+@media (min-width: 768px) {
+    .partner-logo {
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 2rem;
+    }
+}
+
+.partner-image1 {
+    width: 30%; 
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner-image2 {
+    width: 40%; 
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  
+  

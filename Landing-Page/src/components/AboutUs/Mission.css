@@ -1,0 +1,39 @@
+.mission-container {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr; 
+    gap: 20px;
+    background-color: #1d1d1d;
+    padding-top: 100px; 
+}
+
+.left-box2, .right-box3 {
+    padding: 100px 100px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.TextRight2 {
+    color:white;
+    font-family: "Londrina Outline";
+    align-items: center;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.TextLeft2 {
+    color:white;
+    font-family: "Sora";
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-align:justify;
+}
+
+.mission-container::before {
+    content: "";
+    grid-column: 2; 
+    grid-row: 1 / -1; 
+    background-color: #ccc; 
+    width: 5px; 
+    height: 80%; 
+}

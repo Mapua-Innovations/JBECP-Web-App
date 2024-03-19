@@ -1,0 +1,48 @@
+.footer {
+    background-color: #161616;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+   }
+   
+   .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .footer-content p {
+    margin: 0;
+   }
+   
+   .footer-content nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+   
+   .footer-content nav ul li {
+    margin-right: 20px;
+   }
+   
+   .footer-content nav ul li:last-child {
+    margin-right: 0;
+   }
+   
+   .footer-content nav ul li a {
+    list-style-type: none;
+    padding: 0 20px;
+    position: relative;
+    font-family: "Sora";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+   }
+   
+   .footer-content nav ul li a:hover {
+    text-decoration: underline;
+   }

@@ -1,0 +1,20 @@
+.event-details-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.event-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.event-details img {
+    width: 100%;
+    height: auto;
+}
+
+.event-description {
+    padding: 20px;
+}
